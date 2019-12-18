@@ -15,7 +15,7 @@ import (
 func main() {
 	var err error
 
-	opsgenieApiKey := flag.String("api-key", "", "Opsgenie API key")
+	opsgenieApiKey := flag.String("api-key", "9405c4e9-13f3-4eed-86e1-e12dfb6f2f92", "Opsgenie API key")
 	flag.Parse()
 
 	var logger micrologger.Logger
